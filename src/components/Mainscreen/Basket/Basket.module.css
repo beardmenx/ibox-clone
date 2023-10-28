@@ -1,0 +1,40 @@
+.basket {
+  width: 230px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: var(--bace, #f3f3f4);
+  box-shadow:
+    4px 4px 6px 0px rgba(171, 194, 212, 0.6),
+    -4px -4px 6px 0px rgba(255, 255, 255, 0.5);
+  display: flex;
+  padding: 0 10px;
+}
+
+.basket:hover {
+  background: var(--bace, #f3f3f4);
+  box-shadow:
+    4px 2px 8px 0px rgba(189, 195, 197, 0.48) inset,
+    -4px -2px 8px 0px #fff inset;
+}
+
+.basketName {
+  padding: 0 48px;
+}
+
+.basketInner {
+  background-color: #e29e09;
+  width: 70px;
+  height: 50px;
+  margin-left: 20px;
+  margin: -6px;
+  padding: 0;
+  border-radius: 8px;
+}
+
+.basketImg {
+  display: block;
+  margin: 7px auto;
+}

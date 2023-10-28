@@ -1,0 +1,9 @@
+.logoImg {
+  display: block;
+  margin: 0 auto;
+}
+
+.sidebarItems {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}

@@ -1,0 +1,24 @@
+.item {
+  width: 200px;
+  height: 160px;
+  margin: 5px;
+  border-radius: 8px;
+  background: #36393b;
+  box-shadow: 12px 12px 30px 0px #000;
+}
+
+.item:hover {
+  box-shadow:
+    12px 12px 30px 0px #000 inset,
+    -12px -12px 24px 0px rgba(255, 255, 255, 0.3) inset;
+}
+
+.itemImg {
+  margin: 10px;
+}
+
+.itemText {
+  color: #fff;
+  width: 150px;
+  margin: 10px;
+}

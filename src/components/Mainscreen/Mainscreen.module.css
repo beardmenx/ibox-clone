@@ -1,0 +1,33 @@
+.mainscreen {
+  background: #e3e6ec;
+  height: 100%;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.mainscreenWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.mainscreenInner {
+  display: flex;
+  gap: 10px;
+}
+
+.title {
+  width: 270px;
+  color: #36393b;
+}
+
+.titleWrapper {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.serviceWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
